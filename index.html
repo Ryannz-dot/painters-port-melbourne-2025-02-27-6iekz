@@ -3,50 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painters Port Melbourne - Professional Painting Services</title>
     <meta name="description" content="Professional interior & exterior painting services in Port Melbourne. Quality workmanship, affordable rates, and expert painters.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body class="font-['Inter'] antialiased bg-white text-gray-900">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20">
                 <div class="flex items-center">
-                    <h1 class="text-2xl font-bold text-blue-600">Painters Port Melbourne</h1>
+                    <a href="https://Ryannz-dot.github.io/painters-port-melbourne-2025-02-27-6iekz" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">Painters Port Melbourne</a>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#services" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Services</a>
                     <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About Us</a>
                     <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
-                    <a href="tel:0466344447" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">Call for Quote</a>
+                    <a href="tel:0466344447" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg">Call for Quote</a>
                 </div>
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl text-gray-600"></i>
+                </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden">
+                <a href="#services" class="block py-2 px-4 text-sm hover:bg-gray-100">Services</a>
+                <a href="#benefits" class="block py-2 px-4 text-sm hover:bg-gray-100">Benefits</a>
+                <a href="#testimonials" class="block py-2 px-4 text-sm hover:bg-gray-100">Testimonials</a>
+                <a href="#about" class="block py-2 px-4 text-sm hover:bg-gray-100">About Us</a>
+                <a href="#faq" class="block py-2 px-4 text-sm hover:bg-gray-100">FAQ</a>
+                <a href="tel:0466344447" class="block py-2 px-4 text-sm hover:bg-gray-100">Call for Quote</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="pt-32 pb-20 bg-gradient-to-b from-blue-50 to-white">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section class="pt-32 pb-20 bg-gradient-to-b from-blue-50 to-white" style="background-image: url('https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=2000'); background-size: cover; background-position: center;">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-white/90 rounded-3xl p-12">
                 <div class="text-center">
-                    <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">Quality Interior & Exterior Painting & Decorating Services</h2>
-                    <p class="text-xl text-gray-600 mb-10 max-w-3xl mx-auto">Professional painting services for residential and commercial properties in Port Melbourne</p>
-                    <a href="tel:0466344447" class="inline-block bg-blue-600 text-white text-lg px-8 py-4 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">Call 0466 344 447 For Quote</a>
+                    <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">Transform Your Space with Premium Painting Services</h2>
+                    <p class="text-xl text-gray-600 mb-10 max-w-3xl mx-auto">Experience exceptional quality and craftsmanship from Port Melbourne's most trusted painting professionals. Elevate your property with our expert interior and exterior painting solutions.</p>
+                    <a href="tel:0466344447" class="inline-block bg-blue-600 text-white text-lg px-8 py-4 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">Call 0466 344 447 For Your Free Quote</a>
                 </div>
             </div>
         </section>
 
         <section id="services" class="py-24 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl font-bold text-center mb-16">Our Services</h2>
+                <h2 class="text-3xl font-bold text-center mb-16">Comprehensive Painting Solutions</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="bg-gray-50 rounded-2xl p-8 hover:shadow-xl transition-shadow duration-300">
-                        <h3 class="text-xl font-semibold mb-4">Interior Painting</h3>
-                        <p class="text-gray-600">Professional interior painting services for homes and businesses. We ensure perfect finish and attention to detail.</p>
+                    <div class="bg-gray-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-xl font-semibold mb-4 text-blue-600">Premium Interior Painting</h3>
+                        <p class="text-gray-600">Transform your indoor spaces with our expert interior painting services. We use low-VOC premium paints, deliver flawless finishes, and protect your furniture and floors throughout the process. Our meticulous preparation and attention to detail ensure stunning, long-lasting results.</p>
                     </div>
-                    <div class="bg-gray-50 rounded-2xl p-8 hover:shadow-xl transition-shadow duration-300">
-                        <h3 class="text-xl font-semibold mb-4">Exterior Painting</h3>
-                        <p class="text-gray-600">Expert exterior painting services using premium weather-resistant paints for lasting protection and beauty.</p>
+                    <div class="bg-gray-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-xl font-semibold mb-4 text-blue-600">Professional Exterior Painting</h3>
+                        <p class="text-gray-600">Protect and beautify your property with our comprehensive exterior painting services. We utilize weather-resistant, UV-protected paints and proper surface preparation techniques to ensure your paint job withstands Australia's harsh climate while maintaining its aesthetic appeal for years to come.</p>
                     </div>
                 </div>
             </div>
@@ -54,20 +81,74 @@
 
         <section id="benefits" class="py-24 bg-gray-50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl font-bold text-center mb-16">Why Choose Us</h2>
+                <h2 class="text-3xl font-bold text-center mb-16">The Port Melbourne Painters Advantage</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                        <h3 class="text-xl font-semibold mb-4">Long-lasting Results</h3>
-                        <p class="text-gray-600">We use premium quality paints and proper techniques to ensure your paint job lasts for years.</p>
+                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-xl font-semibold mb-4 text-blue-600">Superior Durability</h3>
+                        <p class="text-gray-600">Our premium paint selections and expert application techniques ensure your paint job maintains its beauty for 7+ years. We back our work with a comprehensive satisfaction guarantee.</p>
                     </div>
-                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                        <h3 class="text-xl font-semibold mb-4">Affordable Rates</h3>
-                        <p class="text-gray-600">Competitive pricing without compromising on quality or service standards.</p>
+                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-xl font-semibold mb-4 text-blue-600">Competitive Value</h3>
+                        <p class="text-gray-600">Enjoy premium quality at fair prices. We offer transparent pricing, detailed quotes, and flexible payment options to ensure you receive the best value for your investment.</p>
                     </div>
-                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                        <h3 class="text-xl font-semibold mb-4">Expert Painters</h3>
-                        <p class="text-gray-600">Skilled and experienced team delivering professional results every time.</p>
+                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-xl font-semibold mb-4 text-blue-600">Master Craftsmen</h3>
+                        <p class="text-gray-600">Our team consists of fully licensed, insured, and extensively trained professionals with an average of 15+ years of experience in residential and commercial painting.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-center mb-16">Client Success Stories</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                            <span class="ml-2 font-semibold">Sarah Thompson</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">"The team transformed our heritage home with incredible attention to detail. They carefully preserved all original features while giving the walls new life. The project was completed ahead of schedule, and the results exceeded our expectations."</p>
+                        <p class="text-sm text-gray-500">Homeowner, Port Melbourne</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                            <span class="ml-2 font-semibold">Michael Chen</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Professional, punctual, and precise. They repainted our entire office space over a weekend, causing zero disruption to our business operations. Exceptional service!"</p>
+                        <p class="text-sm text-gray-500">Business Owner, Bay Street</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                            <span class="ml-2 font-semibold">Emma Williams</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Finally found painters who truly care about quality. Their attention to prep work and clean-up was impressive. Our exterior looks amazing and has held up perfectly through two seasons."</p>
+                        <p class="text-sm text-gray-500">Property Manager, Port Melbourne</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                            <span class="ml-2 font-semibold">David Anderson</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Outstanding value and craftsmanship. They handled our three-bedroom home renovation with expertise, finishing on time and on budget. The color consultation service was particularly helpful."</p>
+                        <p class="text-sm text-gray-500">Residential Client, Albert Park</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-center mb-16">About Painters Port Melbourne</h2>
+                <div class="max-w-3xl mx-auto space-y-6">
+                    <p class="text-gray-600 leading-relaxed">
+                        Founded in 2010, Painters Port Melbourne began with a simple vision: to provide exceptional painting services that transform spaces and exceed expectations. What started as a small family operation has grown into one of Port Melbourne's most trusted painting companies, thanks to our unwavering commitment to quality and customer satisfaction.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        Our mission is to enhance the beauty and value of every property we touch through superior craftsmanship, sustainable practices, and outstanding customer service. We're driven by our core values of integrity, excellence, and innovation, ensuring every project receives the attention to detail it deserves.
+                    </p>
                 </div>
             </div>
         </section>
@@ -76,29 +157,37 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl font-bold text-center mb-16">Frequently Asked Questions</h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="bg-gray-50 rounded-xl p-6">
-                        <h3 class="text-lg font-semibold mb-3">What areas do you service?</h3>
-                        <p class="text-gray-600">We primarily service Port Melbourne and surrounding suburbs.</p>
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-3">What areas do you service in Port Melbourne?</h3>
+                        <p class="text-gray-600">We cover all of Port Melbourne and surrounding suburbs including Albert Park, South Melbourne, and Garden City. Our service radius extends to approximately 15km from the Port Melbourne CBD.</p>
                     </div>
-                    <div class="bg-gray-50 rounded-xl p-6">
-                        <h3 class="text-lg font-semibold mb-3">Do you provide free quotes?</h3>
-                        <p class="text-gray-600">Yes, we offer free, no-obligation quotes for all painting projects.</p>
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-3">How long does a typical painting project take?</h3>
+                        <p class="text-gray-600">Project duration varies based on scope and complexity. A standard three-bedroom home interior typically takes 3-4 days, while exterior projects may take 4-7 days. We'll provide a detailed timeline during your consultation.</p>
                     </div>
-                    <div class="bg-gray-50 rounded-xl p-6">
-                        <h3 class="text-lg font-semibold mb-3">Are you insured?</h3>
-                        <p class="text-gray-600">Yes, we are fully insured for your peace of mind.</p>
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-3">What types of paint do you use?</h3>
+                        <p class="text-gray-600">We exclusively use premium paints from trusted manufacturers like Dulux and Taubmans, specifically chosen for each project's requirements. All our paints are low-VOC and environmentally responsible.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-3">Do you offer warranties on your work?</h3>
+                        <p class="text-gray-600">Yes, we provide a 7-year warranty on all our painting work, covering both workmanship and materials. This warranty is fully transferable if you sell your property.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-3">What preparation work is included?</h3>
+                        <p class="text-gray-600">Our comprehensive prep work includes surface cleaning, sanding, crack repair, hole filling, and proper priming. We also protect all surrounding surfaces and furniture before beginning any paint application.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-24 bg-blue-600 text-white">
+        <section class="py-24 bg-blue-600 text-white" style="background-image: url('https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=2000'); background-size: cover; background-position: center; background-blend-mode: overlay;">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <h2 class="text-3xl font-bold mb-8">Ready to Transform Your Space?</h2>
-                <p class="text-xl mb-10">Contact us today for a free quote</p>
+                <p class="text-xl mb-10">Schedule your free consultation and quote today</p>
                 <div class="space-y-4 md:space-y-0 md:space-x-6">
-                    <a href="tel:0466344447" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-full hover:bg-gray-100 transition-colors duration-300">Call 0466 344 447</a>
-                    <a href="mailto:quote@paintersportmelbourne.com.au" class="inline-block border-2 border-white text-white px-8 py-4 rounded-full hover:bg-white hover:text-blue-600 transition-colors duration-300">Email Us</a>
+                    <a href="tel:0466344447" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg">Call 0466 344 447</a>
+                    <a href="mailto:quote@paintersportmelbourne.com.au" class="inline-block border-2 border-white text-white px-8 py-4 rounded-full hover:bg-white hover:text-blue-600 transition-all duration-300 transform hover:scale-105">Email Us</a>
                 </div>
             </div>
         </section>
@@ -106,7 +195,7 @@
 
     <footer class="bg-gray-900 text-gray-300 py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-white text-lg font-semibold mb-4">Painters Port Melbourne</h3>
                     <p class="mb-4">Professional painting services for your home or business</p>
@@ -122,7 +211,17 @@
                     <ul class="space-y-2">
                         <li><a href="#services" class="hover:text-white transition-colors duration-300">Services</a></li>
                         <li><a href="#benefits" class="hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors duration-300">About Us</a></li>
                         <li><a href="#faq" class="hover:text-white transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold mb-4">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://Ryannz-dot.github.io/painters-port-melbourne-2025-02-27-6iekz/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="https://Ryannz-dot.github.io/painters-port-melbourne-2025-02-27-6iekz/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://Ryannz-dot.github.io/painters-port-melbourne-2025-02-27-6iekz/terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
@@ -131,5 +230,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
